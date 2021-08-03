@@ -1,4 +1,10 @@
-# trivia-app
+# Trivia-app
+
+Trivia App for testing your knowledge about technology.
+
+#### Technologies 
+
+Vuejs, Vuetify and [OpenTriviaDataBase](https://opentdb.com/) API
 
 ## Project setup
 ```
