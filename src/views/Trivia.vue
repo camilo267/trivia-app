@@ -1,5 +1,16 @@
 <template>
-  <div>
-    <h1>This is the trivia</h1>
+  <div flat class="trivia-card">
+    <QuestionCard />
   </div>
 </template>
+
+<script>
+import QuestionCard from "../components/QuestionCard.vue";
+export default {
+  components: {
+    QuestionCard,
+  },
+};
+</script>
+
+<style></style>
