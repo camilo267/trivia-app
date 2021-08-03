@@ -1,5 +1,7 @@
 # trivia-app
 
+Trivia App using Vuejs, Vuetify and [OpenTriviaDataBase] (https://opentdb.com/) API
+
 ## Project setup
 ```
 npm install
