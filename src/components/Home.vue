@@ -5,6 +5,7 @@
   >
     <v-card-title class=""> Welcome </v-card-title>
     <v-card-subtitle>Press start to go to the trivia</v-card-subtitle>
+    <!-- Image -->
     <img src="../assets/brain.png" class="brain-logo" />
     <router-link :to="{ name: 'trivia' }">
       <v-btn color="red lighten-2 ma-3"> Start </v-btn></router-link
