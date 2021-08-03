@@ -1,6 +1,6 @@
 # Trivia-app
 
-Trivia App for testing your knowledge about technolofy
+Trivia App for testing your knowledge about technology.
 
 #### Technologies 
 
