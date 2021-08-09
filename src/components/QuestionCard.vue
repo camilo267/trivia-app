@@ -2,7 +2,6 @@
   <v-card class="trivia-container my-0 py-0">
     <v-overlay :value="endOfTrivia">
       <p class="font-weight-black">Score: {{ score }}</p>
-      <!-- <v-btn color="orange lighten-2" @click="done"> Done </v-btn> -->
       <router-link to="/" class=""
         ><v-btn color="orange lighten-2" @click="done">
           Done
@@ -70,7 +69,7 @@ export default {
     async getQuestionsFromServer() {
       const questionsArray = [];
       const response = await fetch(
-        "https://opentdb.com/api.php?amount=11&category=18&difficulty=easy&type=multiple"
+        "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
       );
       const { results } = await response.json();
       results.map((ele) => {
